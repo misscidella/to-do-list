@@ -1,0 +1,81 @@
+.numbered-list
+{
+	font-size: 25px;
+	list-style-type: deimal;
+}
+body
+{
+font-style: italic;
+margin: 0;
+padding: 0;
+color: black;
+background: linear-gradient(to right, #89ABE3, #EA738D); 
+	
+}
+#delete-button
+{
+	font-size: 20px;
+	font-style: italic;
+	background-color: red;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+h1
+{
+	font-family: "Times New Romans";
+	text-shadow:  5px 5px 5px purple;
+	display: flex;
+	font-size: 100px;
+	justify-content: center;
+}
+
+.container
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+input
+{
+	padding: 15px 150px;
+	border-radius: 20px;
+	border: none;
+	outline-color: #9d2d9d;
+
+}
+#addbutton
+{
+	font-style: italic;
+	padding: 15px 25px;
+	border-radius: 20px;
+	border: none;
+}
+.contained
+{
+	display: flex;
+    justify-content: space-between;
+	background-color: white;
+	padding: 2px 1px;
+	border-radius: 20px;
+	border:none;
+	outline: none;
+	margin: 0;
+
+}
+li.contained
+{
+	margin-top: 5px;
+	margin-bottom:5px ;
+	margin-left: -30px;
+	margin-right: 10px;
+}
+button:hover
+{
+	opacity: 0.5;
+}
+.done
+{
+	text-decoration: line-through;
+}
