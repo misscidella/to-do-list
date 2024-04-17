@@ -5,11 +5,14 @@
 }
 body
 {
-font-style: italic;
-margin: 0;
-padding: 0;
-color: black;
-background: linear-gradient(to right, #89ABE3, #EA738D); 
+	height: 100%;
+	width: auto;
+	background-size: cover;
+	font-style: italic;
+	margin: 0;
+	padding: 0;
+	color: black;
+	background: linear-gradient(to right, #89ABE3, #EA738D); 
 	
 }
 #delete-button
@@ -26,8 +29,12 @@ h1
 	font-family: "Times New Romans";
 	text-shadow:  5px 5px 5px purple;
 	display: flex;
-	font-size: 100px;
+	font-size: 10vw;
 	justify-content: center;
+}
+h2
+{
+	font-size: 4vw;
 }
 
 .container
@@ -39,16 +46,18 @@ h1
 }
 input
 {
-	padding: 15px 150px;
+	padding: 1.3em 10em;
 	border-radius: 20px;
 	border: none;
+	font-style: 4vwS;
 	outline-color: #9d2d9d;
 
 }
 #addbutton
 {
+	display: inline-block;
 	font-style: italic;
-	padding: 15px 25px;
+	padding: 1.3em 2em;
 	border-radius: 20px;
 	border: none;
 }
@@ -78,4 +87,12 @@ button:hover
 .done
 {
 	text-decoration: line-through;
+}
+@media (max-width: 600px)
+{
+	body
+{
+	background-color:#EA738D;
+
+}
 }
